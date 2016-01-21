@@ -2,13 +2,13 @@
 
 int main()
 {
-    int year;
     int month;
+    int year;
 
     printf("Please input year and month: ");
-    scanf("%d %d", &year, &month);
+    scanf("%d %d", &month, &year);
     
-    display_calendar(year, month);
+    display_calendar(month, year);
     
  
     return 0;

@@ -7,7 +7,7 @@
 #include "T112_HW03_1.h"
 
 
-void display_calendar(int year, int month)
+void display_calendar(int month, int year)
 {
     return;
 }
