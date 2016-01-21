@@ -5,7 +5,7 @@ int main()
     int month;
     int year;
 
-    printf("Please input year and month: ");
+    printf("Please input month and year: ");
     scanf("%d %d", &month, &year);
     
     display_calendar(month, year);
